@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.cor-navbar{
+    background-color: rgb(181, 194, 202);
+}
+.cor-page{
+    background-color: rgb(71, 124, 156);
+}
+.page-section {
+    padding: 6rem 0;
+  }
+  .page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  .masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+  .masthead .masthead-avatar {
+    width: 15rem;
+  }
+
+  @media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
+  .oswald{
+    font-family: 'Oswald', sans-serif;
+  }
+  .margem{
+    margin-bottom: 200px;
+  }
+  .func figure img{
+    width: 900px;
+    height: 900px;
+  }
+  .btn-absolute{
+    position: absolute;
+    bottom: -1600px;
+    left: 1700px;
+  }

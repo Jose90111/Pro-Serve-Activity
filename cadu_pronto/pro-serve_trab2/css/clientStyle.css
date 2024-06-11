@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.cor-navbar{
+    background-color: rgb(181, 194, 202);
+}
+.cor-page{
+    background-color: rgb(71, 124, 156);
+}
+@media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
+  .oswald{
+    font-family: 'Oswald', sans-serif;
+  }
+  .func figure img{
+    width: 900px;
+    height: 900px;
+  }
+
+
+  
+/* CONTEÚDO DO MARKETING
+-------------------------------------------------- */
+
+/* Alinha, centralmente, o texto dentro das três colunas abaixo do carousel */
+.marketing .col-lg-4 {
+    padding-top: 6rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+  
+  
+  /* Featrurezinhas
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Espaça o elemento <hr> mais */
+  }
+  
+  /* Afina os cabeçalhos de marketing */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* CSS RESPONSIVE
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
