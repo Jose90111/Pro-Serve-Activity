@@ -1,0 +1,99 @@
+html body{
+  background-color: rgb(255, 255, 255);
+    color: rgb(71, 124, 156);
+    background-attachment: fixed;
+    font-family: 'oswald', 'sans';
+}
+
+.rodape{
+    margin-top: 5rem;
+    color: #FFFFFF;
+    background-color: rgb(71, 124, 156);
+}
+
+.titulo-contato{
+  padding-top: 2rem;
+}
+
+/*
+.botao {
+  background-color: #f3f3f3;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}*/
+
+.footer-section {
+  background-color: rgb(71, 124, 156);
+  color: rgb(255, 255, 255);
+  padding: 2rem 0;
+}
+.footer-section a {
+  color: rgb(255, 255, 255);
+}
+
+.footer-section a:hover {
+  color: rgb(181, 194, 202);
+}
+
+.cor-navbar{
+    background-color: rgb(181, 194, 202);
+}
+
+.cor-page{
+    background-color: rgb(71, 124, 156);
+}
+
+.page-section {
+    padding: 6rem 0;
+  }
+
+
+  
+  .page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+
+  .masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+
+  .masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+  .masthead .masthead-avatar {
+    width: 15rem;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
+
+  .margem{
+    margin-bottom: 200px;
+  }
+
+  .func figure img{
+    width: 900px;
+    height: 900px;
+  }
