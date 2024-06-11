@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 255, 255);}
+.cor-navbar{
+    background-color: rgb(181, 194, 202);}
+.card-color{
+    background-color: rgb(71, 124, 156);
+}
+.card-alt-color{
+    background-color: rgb(255, 255, 255);
+}
+.oswald{
+    font-family: 'Oswald', sans-serif;
+  }
+.text-alt-color{
+    color: rgb(71, 124, 156);
+}
